@@ -7,7 +7,10 @@ public class HackerRank {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Enter the Number:");
+
         int n = scanner.nextInt();
+
 //Odd number
         if (n % 2 != 0) {
             System.out.println("Weird");
